@@ -1,0 +1,158 @@
+body{
+  margin: 0%;
+  font-family: 'Roboto', sans-serif;
+}
+.form-card{
+  height: 350px;
+  width: 400px;
+  background-color: rgb(158, 161, 168);
+  margin: auto;
+  margin-top: 9%;
+  border-radius: 5px;
+}
+.form-card div{
+  padding: .5rem;
+}
+.form-card div label,h1,button {
+  margin-left: 1rem;
+}
+.form-card div p {
+  font-size: 13px;
+  margin-left: 1.5rem;
+}
+input{
+  width: 180px;
+  height: 25px;
+  border-radius: 5px;
+  box-shadow: none;
+  margin: .5rem 1rem;
+}
+button{
+  background-color: rgb(111, 165, 219);
+  height: 2.5rem;
+  width: 4.5rem;
+  border-radius: .5rem;
+  color: white;
+  cursor: pointer;
+  margin-left:1rem;
+}
+ 
+
+.side-nav{
+  width: 260px;
+  height: 100%;
+  background-color: rgba(105, 156, 233, 0.699);
+  position: fixed;
+}
+.main-nav{
+  height: 50px;
+  width: 100%;
+  background-color: rgba(105, 156, 233, 0.699);
+  margin: 0px;
+  color: rgb(2, 21, 146);
+}
+.nav-links ul li a{
+  text-decoration: none;
+  /* color: rgb(92, 88, 88); */
+}
+.nav-links ul li {
+  list-style-type: none;
+  padding: 1rem 0 .5rem 1rem;
+  font-size: 18px;
+}
+
+.card{
+  margin-left: auto;
+  background-color: rgba(155, 141, 235, 0.205);
+}
+
+.welcome h2,p {
+  margin: 1rem .5rem .5rem 1rem;
+}
+
+.book-search div label{
+  font-size: 18px;
+  margin-left: 2rem;
+}
+
+.book-search div input,select{
+  height: 40px;
+  width: 250px;
+  margin: .5rem;
+}
+
+/* Table */
+table{
+  margin: 2rem;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px 50px ;
+  
+}
+th {
+  text-align: center;
+  background-color: rgba(105, 156, 233, 0.699);
+  font-weight: lighter;
+}
+
+.opener ul li{
+  list-style-type: none;
+  margin-left: 2.5rem;
+}
+
+.opener{
+  background-color: rgba(155, 141, 235, 0.205);
+  margin: 2rem 2rem 1rem 2rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 60px;
+  width: 65%;
+}
+
+.opener ul {
+  display: flex;
+}
+.opener p{
+  padding: .5rem;
+  margin:0px;
+}
+
+.run p{
+  margin: .3rem 0rem .3rem 1rem;
+}
+
+
+.wrapper-1{
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+
+.card-1{
+  background-color: white;
+  width: 100%;
+  max-width: 500px;
+  height: 464px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5% auto;
+  padding: 20px;
+  position: relative; 
+}
+
+.card-1 div{
+  margin: 1rem;
+  padding: .5rem;
+}
+
+.box div{
+  margin: 2rem;
+  padding-left: 1.5rem;
+}
